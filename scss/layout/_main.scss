@@ -1,0 +1,86 @@
+body {
+    background-color: #F5E8C7;}
+
+main {
+    .titulo-index {
+        display: flex;
+        justify-content: center;
+        margin: 4% 0;
+        font-family: "Oswald";
+        font-size: 45px;}
+
+    p {display: flex;
+        justify-content: center;
+        font-family: "Oswald";
+        font-size: 22px;
+        margin: 0px 100px;}
+
+    .ubi-titulo {display: flex;
+                justify-content: center;
+                margin: 4%;
+                font-family: "Oswald";
+                font-size: 45px;}
+
+    .mapa-ubicacion {display: flex;
+                    justify-content: center;
+                    align-items:flex-end;
+                    margin: 0px 0px;
+                    border: 3px solid black;
+                    margin-bottom: 120px;}
+
+    .contacto-titulo {display: flex;
+                    justify-content: center;
+                    margin: 4%;
+                    font-family: "Oswald";
+                    font-size: 45px;}
+    
+    .formulario {textarea {resize: none;}
+                background-color: #f8e1a7;
+                width: 1000px;
+                padding: 10px;
+                margin: auto;
+                margin-top: 100px;}
+            
+            
+    .bebidas-text { display: flex;
+                    justify-content: space-evenly;}
+
+    .texto-bebida { font-size: 30px;
+                    font-family: "Oswald";
+                    border: 2px solid black;
+                    background:#f7e1b0;
+                    padding: 10px 20px;
+                    text-align: center;}
+
+    .titulo-bebida {display: flex;
+                    justify-content: center;
+                    margin: 4%;
+                    font-family: "Oswald";
+                    font-size: 45px;}
+
+    .img-bebidas {  display: flex;
+                    justify-content: space-evenly;
+                    transition: all 0.3s ease 0s;
+                    &:hover {transform: scale(1.1)}}
+
+    .titulo-comida {display: flex;
+                    justify-content: center;
+                    margin: 4%;
+                    font-family: "Oswald";
+                    font-size: 45px;}
+
+    .comida-text {  display: flex;
+                    justify-content: space-evenly;}
+
+    .texto-comida { font-size: 30px;
+                    font-family: "Oswald";
+                    border: 2px solid black;
+                    background:#f7e1b0;
+                    padding: 10px 20px;
+                    text-align: center;
+                    margin: 30px;}
+
+    .img-comida {   display: flex;
+                    justify-content: space-evenly;
+                    transition: all 0.3s ease 0s;
+                    &:hover {transform: scale(1.1);}}}

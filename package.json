@@ -1,0 +1,17 @@
+{
+  "name": "preentrega3_sandobal",
+  "version": "1.0.0",
+  "description": "Este proyecto fue realizado por Matías Sandobal, para un restaurante ubicado en un club de golf. Cuenta con funcionalidades minimalistas pero prácticas. Este restaurante se ubica en Rafaela, Santa Fe. HTML5, CSS3, SASS y SEO básico aplicado, animaciones en el NavBar y en el apartado de comida y bebida.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/style.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodeman": "^1.1.2"
+  }
+}

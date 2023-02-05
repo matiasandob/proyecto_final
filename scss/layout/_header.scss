@@ -1,0 +1,49 @@
+header {
+    background-color: #9E7777;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding:5px 10%;
+
+    .logo {
+        img {height: 80px;
+        width: auto;
+        transition: all 0.3s;}
+
+        &:hover {
+            transform: scale(1.2);}}
+
+    .nav-links {
+    display: inline-block;
+    padding: 0 30px;
+    font-family: "Oswald";
+    font-size: 25px;
+
+    li {display: inline-block;
+        padding: 0 30px;}
+    
+    a {color: #ecebeb;
+        font-size: 700;
+        &:hover {
+        color: rgb(44, 44, 44);}}}
+
+.btn button {
+    font-weight: 700;
+    color: black;
+    border: none;
+    border-radius: 50px;
+    cursor:pointer;
+    transition: all 0.3s ease 0s;
+    padding: 9px 25px;
+    font-family: "Oswald";
+    font-size: 25px;
+
+    &:hover {background-color: #F5E8C7;
+        color:#9E7777;
+        
+        transform: scale(1.1);}}}
+
+
+
+
